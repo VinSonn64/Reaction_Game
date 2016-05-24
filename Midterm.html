@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Midterm</title>
+
+<style>
+
+body {
+    
+}
+
+#webgl {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+ 
+}
+
+#video {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    margin: 0px 0 0 0px;
+     width: 80%;
+    height: 80%;
+}
+</style>
+</head>
+
+
+<body onload="main()">
+	
+	
+	<video id="video" width=100% height=100% autoplay >
+		<source type="video/mp4"src="Just.mp4">
+		</video>
+	<font size="10" color= "blue" id="scoreboard"></font>
+	<canvas id="webgl" width="1200" height="600"></canvas>
+	<script src="webgl-utils.js"></script>
+	<script src="webgl-debug.js"></script>
+	<script src="cuon-utils.js"></script>
+	<script src="cuon-matrix.js"></script>
+	<script src="MidtermP.js"></script>
+	<p>Press the Arrow Keys according to the Blue Box</p>
+	<p>Try to Reach a Score of 150 before the clip ends!</p>
+	
+</body>
+
+</html>
+
+
